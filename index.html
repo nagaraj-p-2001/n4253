@@ -5,52 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login | My Portfolio</title>
  <style>
-        /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
+        /*style.css*/
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    line-height: 1.5;
+    min-height: 100vh;
+    background: #f3f3f3;
+    flex-direction: column;
+    margin: 0;
 }
 
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5px auto; /* 15% from the top and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+.main {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px;
+    transition: transform 0.2s;
+    width: 500px;
+    text-align: center;
 }
 
-/* The Close Button */
-.close {
-  /* Position it in the top right corner outside of the modal */
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
+h1 {
+    color: #4CAF50;
 }
 
-/* Close button on hover */
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
+label {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #555;
+    font-weight: bold;
 }
 
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
 }
 
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)}
-  to {-webkit-transform: scale(1)}
+button {
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color: #4CAF50;
+    width: 100%;
+    font-size: 16px;
 }
 
-@keyframes animatezoom {
-  from {transform: scale(0)}
-  to {transform: scale(1)}
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
     </style>
    
 </head>
