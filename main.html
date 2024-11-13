@@ -3,34 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login | My Portfolio</title>
+    <title>Nagaraju K P | Aerospace Engineering Graduate </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="login-container">
-        <h2>Login</h2>
-        <form id="loginForm">
-            <label for="username">Username:</label>
-            <input type="text" id="username" required>
-            <label for="password">Password:</label>
-            <input type="password" id="password" required>
-            <button type="button" onclick="login()">Login</button>
-        </form>
-        <p id="loginMessage"></p>
-    </div>
-    <script>
-        function login() {
-            const username = document.getElementById("username").value;
-            const password = document.getElementById("password").value;
-
-            // Simple check for demonstration purposes
-            if (username === "testuser" && password === "mypassword") {
-                document.getElementById("loginMessage").textContent = "Login successful!";
-                window.location.href = "index.html";  // Redirect to main page
-            } else {
-                document.getElementById("loginMessage").textContent = "Invalid credentials!";
-            }
-        }
-    </script>
+    <header>
+        <h1>Welcome to My Aerospace Portfolio</h1>
+        <nav>
+            <a href="main.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Introduction</h2>
+        <p>Hello! I'm Nagaraju K P, an Aerospace Engineering Graduate with a passion for aerospace technology and innovation. With hands-on experience in CFD analysis, product design, and prototyping, I am eager to contribute to cutting-edge aerospace projects. Explore my portfolio to learn more about my education, projects, and technical skills.</p>
+        <p>I hope youre dong well</p>
+    </section>
 </body>
 </html>
